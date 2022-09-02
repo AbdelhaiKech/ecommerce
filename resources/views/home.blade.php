@@ -38,8 +38,8 @@
 
                             <div class="col-auto d-none d-lg-block">
                                 <img class="card-img-left example-card-img-responsive"
-                                    src="https://cdn.pixabay.com/photo/2022/08/26/22/01/bee-7413333_960_720.jpg"
-                                    style="    width: 300px;" />
+                                    src="{{ asset('assets2/images/user.png') }}"
+                                    style="    width: 200px;" />
                             </div>
                         </div>
                     </div>

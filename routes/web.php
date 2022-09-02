@@ -19,7 +19,12 @@ Route::get('/', function () {
 Route::get('/tm', function () {
     return view('pages/index');
 });
+Route::get('/ad', function () {
+    return view('layouts/masteradmin');
+});
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/Category', [App\Http\Controllers\AdminController::class, 'index'])->name('home');
